@@ -1,5 +1,10 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
-  background-color: white;
+  background-color: peachpuff;
 }
 
 .wrapper {
@@ -7,14 +12,14 @@ body {
 }
 .main-content {
   flex: 3;
-  height: 700px;
+  height: 100vh;
   background-color: blanchedalmond;
   overflow: scroll;
 }
 
 .sidebar {
   flex: 1;
-  height: 700px;
+  height: 100vh;
   background-color: bisque;
 }
 
@@ -30,6 +35,9 @@ body {
   margin: 0 auto 2rem auto;
 
   border-radius: 10px;
+}
+.navigation ul {
+  list-style-type: none;
 }
 
 h1 {
