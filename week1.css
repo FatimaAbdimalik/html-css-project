@@ -75,11 +75,17 @@ h2 {
 }
 
 @media screen and (max-width: 900px) {
-  .container {
+  /* .container {
     flex-direction: column;
-  }
+  } */
   .wrapper {
     flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .container {
+    flex-wrap: wrap;
   }
 }
 /* @media screen and (max-width: 900px) {
